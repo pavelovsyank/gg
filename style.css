@@ -317,3 +317,182 @@ nav a:hover {
   margin: 200px auto 0; 
 }
 
+/* .brand{
+  width: 1010px;
+  height: 103px;
+}
+
+.brand-wrapper{
+  display:flex;
+  
+} */
+
+.brand {
+  width: 1010px; 
+  margin: 0 auto; 
+}
+
+.brand-wrapper {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+}
+
+.block-hz {
+  margin-bottom: 200px;
+  margin-top: 200px;
+  display: flex; 
+  justify-content: center; 
+}
+
+.block-img {
+  display: block; 
+  width: auto; 
+  height: auto; 
+  margin-right: 108px; 
+}
+
+
+.block-img:last-child {
+  margin-right: 0; 
+}
+
+.block-img1{
+  margin-top: 30px;
+  margin-right: 108px;
+  width: 132px;
+  height: 43px;
+}
+
+.block-img3{
+  margin-top: 30px;
+  margin-right: 108px;
+  width: 163px;
+  height: 43px;
+
+}
+
+
+.block-img4{
+  margin-top: 30px;
+  margin-right: 108px;
+  width: 144px;
+  height: 44px;
+}
+
+.block-img5{
+  margin-top: 30px;
+  width: 116px;
+  height: 47px;
+}
+
+.prikin{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.project-block{
+  width: 636px;
+  height: 552px;
+}
+
+.project{
+  width: 1201px;
+  height: 1541px;
+}
+
+.project-wrapper{
+  width: 1201px;
+  height: 1541px;
+
+}
+
+.heading-h1{
+  width: 451px;
+  height: 63px;
+  text-align:center;
+  font-weight: 400;
+  font-size: 50px;
+}
+
+.heading-p{
+  width: 737px;
+  height: 66px;
+  text-align:center;
+  font-weight: 400;
+  font-size: 22px;
+}
+
+
+
+.heading {
+  height: 137px;
+  display: flex; /* Используем flexbox для центрирования */
+  flex-direction: column; /* Вертикальное расположение элементов */
+  align-items: center; /* Центрируем по горизонтали */
+  justify-content: center; /* Центрируем по вертикали */
+  text-align: center; /* Центрируем текст */
+}
+
+.project-blocks {
+  display: flex; /* Используем flexbox для расположения блоков */
+  flex-wrap: wrap; /* Позволяем блокам переноситься на новую строку */
+  justify-content: center; /* Центрируем блоки по горизонтали */
+}
+
+
+.project {
+  display: flex; /* Используем flexbox для центрирования */
+  justify-content: center; /* Центрируем содержимое по горизонтали */
+  align-items: center; /* Центрируем содержимое по вертикали */
+  flex-direction: column; /* Вертикальное расположение элементов */
+  width: 100%; /* Занимаем всю ширину родительского элемента */
+}
+
+.project-wrapper {
+  max-width: 1300px; /* Ограничиваем максимальную ширину блока */
+  width: 100%; /* Занимаем всю ширину родительского элемента */
+  padding: 0 20px; /* Добавляем отступы, если необходимо */
+}
+
+.heading {
+  margin-bottom: 93px;
+  height: 137px;
+  display: flex; /* Используем flexbox для центрирования */
+  flex-direction: column; /* Вертикальное расположение элементов */
+  align-items: center; /* Центрируем по горизонтали */
+  justify-content: center; /* Центрируем по вертикали */
+  text-align: center; /* Центрируем текст */
+}
+
+.project-block{
+  margin-bottom: 60px;
+  width: 619px;
+  height: 549px;
+
+}
+
+.knopka{
+  padding-left:262px;
+  width: 70px;
+  height: 70px;
+}
+
+.project-text{
+  margin-bottom:0px;
+  width: 217px;
+  height: 62px;
+}
+
+.items-bot{
+  display:flex;
+  flex-direction:row;
+}
+
+.items-bot{
+  margin-top:24px;
+  width: 547px;
+  height: 70px;
+  margin-bottom:80px;
+}
