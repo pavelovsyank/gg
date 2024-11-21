@@ -510,12 +510,10 @@ nav a:hover {
   margin-left: 419px;
 }
 
-.blog{
-  width: 1200px;
-  height: 714px;
-}
+
 
 .blog-title{
+  margin-bottom: 52px;
   width: 811px;
   height: 141px;
   text-align:center;
@@ -539,15 +537,6 @@ nav a:hover {
   border-radius:50%;
 }
 
-.kartinka1{
-  width: 340px;
-  height: 479px;
-}
-
-.blog-item-title{
-  width: 340px;
-}
-
 .prost{
   width: 340px;
   height: 290px;
@@ -566,4 +555,124 @@ nav a:hover {
   width: 223px;
   height: 33px;
   margin-top: 40px;
+}
+
+.blog-subtitle{
+  display:flex;
+  flex-direction: row;
+}
+
+.blog {
+  width: 1200px; 
+  margin: 0 auto; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.blog-wrapper {
+  margin-top: 200px;
+  width: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.kartinka2{
+  width: 340px;
+  height: 479px;
+  background-color: #e7e7e7;
+  border-radius:15px;
+}
+
+.blog-knopka{
+  margin-top: 30px;
+}
+
+.blog-item {
+  display: flex; 
+  flex-direction: row; 
+  align-items: stretch; 
+  justify-content: space-between; 
+  width: 100%; 
+  margin-bottom: 20px; 
+}
+
+.blog-item-title {
+  flex: 2;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+}
+
+.blog-subtitle {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
+  margin-top: 10px;
+}
+
+.kartinka1 {
+  background-size: cover; 
+  background-position: center; 
+  border-radius: 15px; 
+}
+
+
+
+.join {
+  margin-left: 360px;
+  margin-bottom: 200px;
+  margin-top: 200px; 
+  width: 1200px;
+  height: 374px;
+  background-color: #292f36;
+  border-radius: 20px;
+  display: flex; 
+  justify-content: center;
+  align-items: center; 
+}
+
+.join-wrapper {
+  
+  width: 569px;
+  height: 214px;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+}
+
+.join-h1 {
+  font-weight: 400;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+}
+
+.join-h3 {
+  font-weight: 400;
+  font-size: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+.join-but {
+  margin-top: 32px;
+  width: 237px;
+  height: 75px;
+  background-color: #cda274;
+  color: aliceblue;
+  border-radius: 15px;
+  font-weight: 600;
+  font-size: 16px;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+
+.p-but{
+  color:#292F36;
+  font-weight: 400;
 }
