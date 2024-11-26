@@ -807,3 +807,159 @@ nav a:hover {
   font-size: 16px;
   margin-top: 41px;
 }
+
+.services-wrap{
+  margin-top: 200px;
+  margin-left: 382px;
+  max-width: 1158px;
+  max-height: 704px;
+
+}
+
+.services-top{
+  display:flex;
+  flex-direction:row;
+  max-width: 1158px;
+  max-height: 225px;
+}
+
+.services-h3{
+  text-align:center;
+  font-weight: 400;
+  font-size: 25px;
+  color:#292F36;
+}
+
+.sevices-block-top{
+  width: 358px;
+  height: 225px;
+}
+
+.services-p{
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 22px;
+  color:#4D5053;
+  text-align:center;
+  width: 358px;
+  height: 99px;
+}
+
+.services-a{
+  margin-top: 52px;
+  font-weight: 600;
+  font-size: 18px;
+  text-align:center;
+  align-items:center;
+  display:flex;
+  margin-left: 119px;
+  color:#4D5053;
+}
+
+.services-bot{
+  margin-top: 100px;
+  display:flex;
+  flex-direction:row;
+  width: 1158px;
+  height: 225px;
+
+}
+
+.services-block-bot{
+  width: 358px;
+  height: 225px;
+}
+
+.services-block-bot-2{
+  width: 398px;
+  height: 391px;
+  background-color: #f4f0ec;
+}
+
+.details{
+  width: 967px;
+  height: 486px;
+  display:flex;
+  flex-direction:row;
+}
+
+.hww{
+  margin-left: 360px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  width: 1200px;
+  height: 2718px;
+  background-color: #f4f0ec;
+  border-radius:50px;
+}
+
+.hww-title{
+  margin-top: 160px;
+  margin-left: 198px;
+  width: 802px;
+  height: 176px;
+}
+
+.hww-h1{
+  padding-top: 160px;
+  font-weight: 400;
+  font-size: 50px;
+  color:#363B41;
+  text-align:center;
+}
+
+.hww-h3{
+  font-weight: 400;
+  font-size: 22px;
+  color:#4D5053;
+  text-align:center;
+}
+
+.details{
+  margin-left: 100px;
+  width: 967px;
+  height: 485px;
+  margin-top: 200px;
+}
+
+.detail-title{
+  margin-left: 51px;
+  margin-top: 85px;
+  width: 456px;
+  height: 316px;
+}
+
+.number-detail{
+  margin-bottom: 58px;
+  width: 452px;
+  height: 102px;
+  display:flex;
+  flex-direction: row;
+}
+
+.h5-detail{
+  margin-left: 253px;
+  vertical-align:15px;
+  font-weight: 400;
+  font-size: 120px;
+  color:#fff;
+}
+
+.opis-detail{
+  width: 456px;
+  height: 154px;
+}
+
+.h1-detail{
+  margin-bottom: 11px;
+  font-weight: 400;
+  font-size: 35px;
+  color:#292F36;
+}
+
+.p-detail{
+  font-weight: 400;
+  font-size: 22px;
+  color:#4D5053;
+}
+
